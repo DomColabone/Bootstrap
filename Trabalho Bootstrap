@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom Colabone</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS Personalizado -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: black;
+            color: white; /* Para garantir que o texto seja legível */
+        }
+        a {
+            color: white; /* Cor dos links */
+        }
+    </style>
+</head>
+<body>
+
+<header style="background-color: #28a745; color: white;" class="text-center py-5">
+    <h1>Bem-vindo à Página Dom Colabone</h1>
+    <nav role="navigation">
+        <ul class="list-unstyled">
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+            <li><a href="#linguagens-usadas">Linguagens Usadas</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="container my-5">
+    <h2>Conteúdo Principal</h2>
+    <p>Nós somos a Dom Colabone indústrias, criados a partir de uma ideia de dois irmãos, onde em uma conversa informal surgiram os ideais da nossa empresa.</p>
+</div>
+
+<div class="container my-5" id="sobre">
+    <h2>Sobre</h2>
+    <p>A Dom Colabone é uma empresa dedicada a criar soluções inovadoras, focando em qualidade e eficiência. Nossos fundadores são apaixonados por tecnologia e trabalham incansavelmente para trazer o melhor para nossos clientes.</p>
+</div>
+
+<div class="container my-5" id="projetos">
+    <h2>Projetos</h2>
+    <p>Estamos envolvidos em diversos projetos, desde aplicativos web até sistemas complexos. Nossa equipe é especializada em diversas áreas e sempre busca novas maneiras de superar as expectativas.</p>
+</div>
+
+<div class="container my-5" id="contatos">
+    <h2>Contatos</h2>
+    <p>Para entrar em contato conosco, envie um e-mail para contato@domcolabone.com ou preencha nosso formulário de contato no site.</p>
+</div>
+
+<div class="container my-5" id="linguagens-usadas">
+    <h2>Linguagens Usadas</h2>
+    <p>Nós utilizamos uma variedade de linguagens de programação e tecnologias, incluindo HTML, CSS, JavaScript, Python e PHP, entre outras, para desenvolver nossas soluções.</p>
+</div>
+
+<footer class="bg-dark text-white text-center py-4">
+    <!-- Copyright removido -->
+</footer>
+
+<!-- Bootstrap JS, jQuery e Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
